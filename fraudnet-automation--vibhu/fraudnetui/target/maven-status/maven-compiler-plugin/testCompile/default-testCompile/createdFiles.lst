@@ -1,0 +1,9 @@
+com\experian\fraudnetui\featuredefs\google.class
+com\experian\fraudnetui\featuredefs\Login.class
+com\experian\fraudnetui\featuredefs\servicesample.class
+com\experian\fraudnetui\featuredefs\PosNegList.class
+com\experian\fraudnetui\featuredefs\test.class
+com\experian\fraudnetui\runner\TestRunner.class
+com\experian\fraudnetui\featuredefs\PracticeLogin.class
+com\experian\fraudnetui\featuredefs\Report.class
+com\experian\fraudnetui\featuredefs\Hooks.class

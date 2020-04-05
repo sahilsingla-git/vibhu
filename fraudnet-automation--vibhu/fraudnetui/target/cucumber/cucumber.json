@@ -1,0 +1,115 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3785666413,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Practice Login",
+        "description": "",
+        "id": "practice-login;practice-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 87598,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 750974632,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9572073642,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user lands on practice login page",
+            "match": {
+              "location": "PracticeLogin.user_lands_on_practice_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3641895956,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter \"mngr253182\" and \"YjaguhY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr253182",
+                  "offset": 12
+                },
+                {
+                  "val": "YjaguhY",
+                  "offset": 29
+                }
+              ],
+              "location": "PracticeLogin.user_enter_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64269605,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user lands on homepage",
+            "match": {
+              "location": "PracticeLogin.user_lands_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@PracticeLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Practice Login",
+    "description": "\r\nVerify if user is able to login into practice",
+    "id": "practice-login",
+    "keyword": "Feature",
+    "uri": "Functional/PracticeLogin.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@PracticeLogin"
+      }
+    ]
+  }
+]

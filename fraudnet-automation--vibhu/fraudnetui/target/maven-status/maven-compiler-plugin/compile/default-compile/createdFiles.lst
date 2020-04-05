@@ -1,0 +1,8 @@
+com\experian\fraudnetui\pageobjects\LoginPage.class
+com\experian\fraudnetui\pageobjects\ReportPage.class
+com\experian\fraudnetui\dao\JdbcDao.class
+com\experian\fraudnetui\pageobjects\PosNegListPage.class
+com\experian\fraudnetui\pageobjects\PracticeLoginPage.class
+com\experian\fraudnetui\drivermanager\TestBase.class
+com\experian\fraudnetui\pageobjects\googlepage.class
+com\experian\fraudnetui\Utility\Util.class
